@@ -1,0 +1,180 @@
+/*fonts*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+/*fonts*/
+
+font-face{
+	src:url(./fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+	font-family:PlayfairDisplay; 
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:PlayfairDisplay;
+}
+header{
+	padding: 20px 0;
+	
+
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.logo{
+	width: 8%;
+    /*border: 1px solid;*/
+    float: left;
+    margin-top: 8px;
+
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	    float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	margin: 0px 50px;
+	text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    padding: 3px 3px;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid black;
+}
+.container img{
+	width: 100%;
+}
+.wrapper{
+	border: 5px solid red;
+	min-height: 300px;
+	width: 70%;
+	margin:0 auto;
+	position: relative;
+}
+.box{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+
+}
+.box1{
+	background-color: red;
+	top:0; 
+	bottom:;
+	left:0;
+	right:;
+
+}
+.box2{
+	background-color: green;
+	top:; 
+	bottom:0;
+	left:0;
+	right:;
+}
+.box3{
+	background-color: yellow;
+	top:0; 
+	bottom:;
+	left:;
+	right:0;
+}
+.box4{
+	background-color: blue;
+	top:; 
+	bottom:0;
+	left:;
+	right:0;
+}
+.box5{
+	background-color: black;
+    margin: 100px auto;
+    left: 0;
+    right: 0;
+
+}
+.newsletter{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.container3{
+	width: 60%;
+	margin: 0 auto;
+
+}
+.news_content{
+	text-align: center;
+}
+.news_content h1{
+	margin-bottom: 100px;
+	font-size: 30px;
+}
+.for-form{
+	position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.for-form input{
+	border: none;
+    background: none;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding: 10px 10px 10px 0px;
+    width: 300px;
+    outline: 0;
+}
+.for-form button{
+	position: absolute;
+    left: 270px;
+    right: 0px;
+    margin: px auto;
+    margin: 0 auto;
+    border: none;
+    padding: 10px;
+}
+.talkbubble {
+    margin: 200px;
+    width: 166px;
+    min-height: 89px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 26%;
+    top: 136px;
+    width: 0;
+    height: 0;
+    border-top: 47px solid red;
+    border-right: 107px solid transparent;
+  }
+
+
